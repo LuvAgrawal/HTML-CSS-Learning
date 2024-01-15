@@ -1,0 +1,47 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+:root{
+    --white: hsl(0,0%,100%);
+    --light_gray: hsl(212, 45%, 89%);
+    --grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%)
+}
+body{
+    font-family: sans-serif;
+    background: rgb(213, 225, 239);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.card{
+    background: white;
+    width: 350px;
+    padding: 15px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+}
+.card img{
+    height: 350px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.card h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px ;
+}
+.card p{
+    text-align: center;
+    font-weight: lighter;
+}
