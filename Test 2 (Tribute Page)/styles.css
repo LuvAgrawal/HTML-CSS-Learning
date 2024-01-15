@@ -1,0 +1,49 @@
+h1,p,h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: #333333
+  }
+  
+  li{
+    font-size:16px;
+    font-family: sans-serif;
+    margin: 10px 30% 20px 30%; 
+    /* padding: 10px 30% 20px 30%; */
+    /* text-align: center; */
+  }
+  
+  section.quote{
+    font-size:16px;
+    font-family: sans-serif;
+    margin: 10px 30% 20px 30%;
+    
+  }
+  
+  section.title, #tribute-info{
+    background-color: #eeeeee;
+    margin-top: 30px ;
+    padding: 10px 0 4px 0;
+  }
+  
+  h1{
+    font-size: 2.5vw;
+  }
+  
+  h3{
+    margin-bottom: 40px;
+  }
+  
+  p{
+    font-size: 16px;
+    margin-top: 0;
+  }
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  a{
+    color: #477ca7;
+  }

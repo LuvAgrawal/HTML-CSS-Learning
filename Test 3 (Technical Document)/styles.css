@@ -1,0 +1,77 @@
+*{
+    font-family: sans-serif;
+}
+
+header{
+    font-size: 2rem;
+    font-weight: lighter; 
+}
+
+code{
+    background-color: #f7f7f7;
+    font-family: monospace;
+    margin: 15px;
+    padding: 15px;
+    /* white-space: pre; */
+    display: block;
+}
+
+main{
+    display: absolute;
+    position:sticky;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+nav{
+    display: block;
+}
+
+
+ul.navbar{
+    max-width: fit-content;
+    left:0;
+    top:0;
+    padding: 0;
+    list-style: none;
+    border-style: groove;
+}
+
+ul.navbar li{
+    /* border-style: groove; */
+    display: list-item;
+    
+    margin-left: 0;
+    border-top: 1px solid;
+    padding: 10px 20px 10px 10px;
+}
+
+
+a:link,a:visited,a:hover,a:active{
+    color:black;
+    /* font-style: normal; */
+    text-decoration: none;
+
+}
+/* 
+a:visited - a link the user has visited
+
+a:hover - a link when the user mouses over it
+
+a:active - a link the moment it is clicked */

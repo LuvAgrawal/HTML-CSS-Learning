@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        class="logo"
+        id="header-img"
+        src="./Resources/product-landing-page-logo.png"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#working">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="home">
+        <h2 class="home">Handware, home-mode masterpeice</h2>
+        <form method="post" id="form" action="https://www.freecodecamp.com/email-submit">
+          <label name="email"
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter your Email address" /></label
+          ><br />
+          <input id="submit" type="submit" value="GET STARTED" class="btn" />
+        </form>
+      </div>
+
+      <!-- FEATURES -->
+
+      <div class="features" id="features">
+        <img
+          src="Resources/high-quality.png"
+          alt="premium quality icon"
+          class="icon"
+        />
+        <h2>Premium Materials</h2>
+        <p>
+          Our trombones use the shiniest brass which is sourced locally. This
+          will increase the longevity of your purchase.
+        </p>
+        <img src="Resources/shipped.png" alt="shipping icon" class="icon" />
+        <h2>Fast Shipping</h2>
+        <p>
+          We make sure you recieve your trombone as soon as we have finished
+          making it. We also provide free returns if you are not satisfied.
+        </p>
+        <img src="Resources/quality.png" alt="rating icon" class="icon" />
+        <h2>Quality Assurance</h2>
+        <p>
+          For every purchase you make, we will ensure there are no damages or
+          faults and we will check and test the pitch of your instrument.
+        </p>
+      </div>
+
+      <!-- HOW IT WORKS -->
+
+      <div class="working" id="working">
+        <br /><br />
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="Roman Carnival Overture Op. 9 for Five Trombones"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- PRICING! -->
+
+      <div class="pricing" id="pricing">
+        <div class="products" id="tenor">
+          <h2 class="p-head">TENOR TROMBONE</h2>
+          <h3>$600</h3>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Loren ipsum.</li>
+            <li>Loren ipsum dolor.</li>
+            <li>Loren ipsum.</li>
+          </ul>
+          <button type="button">SELECT</button>
+        </div>
+
+        <div class="products" id="brass">
+          <h2 class="p-head">BRASS TROMBONE</h2>
+          <h3>$900</h3>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Loren ipsum.</li>
+            <li>Loren ipsum dolor.</li>
+            <li>Loren ipsum.</li>
+          </ul>
+          <button type="button">SELECT</button>
+        </div>
+
+        <div class="products" id="valve">
+          <h2 class="p-head">VALVE TROMBONE</h2>
+          <h3>$1200</h3>
+          <ul>
+            <li>Plays similar to a Trumpet</li>
+            <li>Great for Jazz Bands</li>
+            <li>Loren ipsum dolor.</li>
+            <li>Loren ipsum.</li>
+          </ul>
+          <button type="button">SELECT</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <ul>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Contact</li>
+        </ul>
+        <p class="subtext">Copyright 2016, Original Trombones</p>
+    </footer>
+  </body>
+</html>

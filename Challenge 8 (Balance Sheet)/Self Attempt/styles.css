@@ -1,0 +1,21 @@
+*{
+    font-family: sans-serif;
+}
+
+.years{
+    background-color: black;
+    color: white;
+    padding: 5px !important;
+
+    margin: 0 !important;
+}
+
+section {
+    margin: 0 25%;
+    padding: 1% 2.5%;
+    border: 5px solid #d0d0d5;
+}
+
+h1,h3{
+    margin: 0 0 10px 0;
+}

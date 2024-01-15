@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+  <title>freeCodeCamp Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">
+    Thank you for taking the time to help us improve the platform
+  </p>
+
+  <form id="survey-form" method="get">
+    <fieldset>
+      <label id="name-label" for="name"
+        >Name
+        <input type="text" id="name" placeholder="Enter your name" required
+      /></label>
+      <label id="email-label" for="email"
+        >Email
+        <input type="email" id="email" placeholder="Enter your Email" required
+      /></label>
+      <label id="number-label" for="number"
+        >Age (optional)
+        <input type="number" id="number" placeholder="Age" min="18" max="40"
+      /></label>
+    </fieldset>
+
+    <fieldset>
+      <label
+        >Which option best describes your current role?
+        <select id="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full time Job</option>
+          <option value="3">Full time Learner</option>
+          <option value="4">Prefer not to say</option>
+          <option value="5">Other</option>
+        </select>
+      </label>
+      <label>Would you recomend freeCodeCamp to a friend?</label>
+      <input
+        type="radio"
+        name="recomend"
+        checked
+        class="inline"
+        value="definately"
+      />Definately
+      <label
+        ><input
+          type="radio"
+          name="recomend"
+          value="maybe"
+          class="inline"
+        />Maybe</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="recomend"
+          value="not-sure"
+          class="inline"
+        />Not Sure</label
+      >
+    </fieldset>
+
+    <fieldset>
+      <label
+        >What would you like to see improved? (Check all that apply)
+      </label>
+      <label
+        ><input type="checkbox" class="inline" value="front" />Front-end
+        Projects</label
+      >
+      <label
+        ><input type="checkbox" class="inline" value="back" />Back-end
+        Projects</label
+      >
+      <label
+        ><input type="checkbox" class="inline" value="data" />Data
+        Visualization</label
+      >
+      <label
+        ><input
+          type="checkbox"
+          class="inline"
+          value="challenges"
+        />Challenges</label
+      >
+    </fieldset>
+
+    <fieldset>
+      <label
+        >Any comments or suggestions?<textarea
+          placeholder="Enter your comments here..."
+          rows="5"
+          cols=""
+        ></textarea>
+      </label>
+      <input type="submit" value="Submit" id="submit" />
+    </fieldset>
+  </form>
+</body>
