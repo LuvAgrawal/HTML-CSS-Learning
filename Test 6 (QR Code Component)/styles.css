@@ -5,43 +5,45 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-:root{
-    --white: hsl(0,0%,100%);
-    --light_gray: hsl(212, 45%, 89%);
-    --grayish_blue: hsl(220, 15%, 55%);
-    --Dark_blue: hsl(218, 44%, 22%)
-}
 body{
     font-family: sans-serif;
     background: rgb(213, 225, 239);
+    height: 97vh;
+    width: 99vw;
+    /* display: grid;
+    place-items: center; */
     /* display: flex;
     align-items: center;
     justify-content: center; */
 }
 .card{
     background: white;
-    width: 350px;
+    width: 23%;
     padding: 15px;
-    height: 600px;
     border: 2px solid white;
     border-radius: 15px;
-    margin: auto;
+    /* margin: auto; */
+    
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 5px 10px 18px #888888;
 }
 .card img{
-    height: 350px;
-    width: 350px;
+    width: 100%;
     border: 2px solid white;
     border-radius: 15px;
 }
 .card h1{
-    font-size: 1.5rem;
+    font-size: 1.6VW;
     font-weight: bold;
     text-align: center;
-    padding: 15px 15px ;
+    padding: o.5vw 0.5vw ;
 }
 .card p{
     text-align: center;
     font-weight: lighter;
+    font-size: 1.1VW;
 }
