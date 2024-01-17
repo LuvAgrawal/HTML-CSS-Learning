@@ -49,4 +49,4 @@ I'll learn more and more about how to create responsive and reactive websites.
 ## Author
 
 - Frontend Mentor - [@LuvAgrawal](https://www.frontendmentor.io/profile/LuvAgrawal)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/LuvAgrawal)
+- LinkedIn - [@LuvAgrawal](https://www.linkedin.com/in/LuvAgrawal)
