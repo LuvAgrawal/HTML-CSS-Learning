@@ -1,0 +1,101 @@
+:root{
+    --primary: rgb(243, 229, 216);
+    --secondary: rgb(255, 247, 252);
+    --heading1: rgb(41, 40, 36);
+    --heading2: rgb(124, 62, 46);
+    --para: (rgb(90, 89, 87));
+
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "youngSerif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+/* @media  (max-width: 1440px){
+    body{
+        width: 100%;
+    }
+} */
+
+body{
+    background-color: var(--primary);
+    height: 97vh;
+    width: 99vw;
+}
+
+.card{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+    
+    width: 55%;
+    
+    background-color: var(--secondary);
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+
+.card img{
+    object-fit: contain;
+    border-radius: 60px;
+    width: 90%;
+    padding: 5%;
+}
+
+.recipe{
+    padding: 0% 5% 0% 5%;
+    margin-top: -5%;
+}
+
+.recipe h1,h2{
+    font-family: "youngSerif";
+    font-weight: 400;
+}
+
+.recipe h1{
+    color: var(--heading1);
+    font-size: 3rem;
+}
+
+.recipe h2{
+    font-size: 2.8rem;
+    color:var(--heading2);
+}
+
+.recipe p, li,h3,td{
+    font-family: "outfit";
+    color: var(--para);
+    font-size: 1.25rem;
+}
+
+.time{
+    padding: 0% 5% 0% 5%;
+    background-color: rgb(255, 247, 252);
+}
+
+li{
+    line-height: 30px;
+}
+
+table{
+    width: 100%;
+}
+td{
+    border-bottom: 0.1px solid lightgray;
+    padding: 15px;
+}
+
+td.value{
+    color:var(--heading1);
+    font-weight: 800;
+}
